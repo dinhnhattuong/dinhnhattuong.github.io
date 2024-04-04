@@ -4724,7 +4724,19 @@ input, select, textarea {
 		}
 	}
 
-	
+	.responsive-image {
+  width: 360px;
+  height: 480px;
+  object-fit: cover;
+}
 
+/* Adjustments for screens smaller than 360px */
+@media (max-width: 500px) {
+  .responsive-image {
+    width: 44%;
+margin-top: 0
+    margin: 0 auto;
+  }
+}
 
 
